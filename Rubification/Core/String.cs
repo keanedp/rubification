@@ -7,7 +7,7 @@ namespace Rubification.Core
 	{
 		public static string Capitalize(this string myString)
 		{
-			if(!string.IsNullOrEmpty(myString) && myString.Length > 0)
+			if(!string.IsNullOrEmpty(myString))
 				return char.ToUpper(myString[0]) + myString.Substring(1).ToLower();
 			
 			return string.Empty;
