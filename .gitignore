@@ -2,7 +2,7 @@
 db/*.sqlite3
 log/*.log
 tmp/
-.bin
+bin
 .obj
 *.userprefs
 test-results
