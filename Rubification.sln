@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rubification", "Rubification\Rubification.csproj", "{61BEC192-809E-4151-A4CB-F5CF29C79483}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rubification.Tests", "Rubification.Tests\Rubification.Tests.csproj", "{A1864894-9BAB-493A-9EF1-B917243E3769}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61BEC192-809E-4151-A4CB-F5CF29C79483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61BEC192-809E-4151-A4CB-F5CF29C79483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61BEC192-809E-4151-A4CB-F5CF29C79483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61BEC192-809E-4151-A4CB-F5CF29C79483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1864894-9BAB-493A-9EF1-B917243E3769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1864894-9BAB-493A-9EF1-B917243E3769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1864894-9BAB-493A-9EF1-B917243E3769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1864894-9BAB-493A-9EF1-B917243E3769}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Rubification\Rubification.csproj
+	EndGlobalSection
+EndGlobal
