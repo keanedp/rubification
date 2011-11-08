@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Rubification.Core
 {
-	public static class String
+	public static class RbString
 	{
 		public static string Capitalize(this string myString)
 		{

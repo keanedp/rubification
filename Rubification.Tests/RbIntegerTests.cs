@@ -5,7 +5,7 @@ using Rubification.Core;
 namespace Rubification.Tests
 {
 	[TestFixture()]
-	public class IntegerTests
+	public class RbIntegerTests
 	{
 		[Test()]
 		public void AsAnIntegerICanIterateTenTimes()
