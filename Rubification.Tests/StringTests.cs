@@ -38,6 +38,10 @@ namespace Rubification.Tests
 			
 			testStringEach.Each(c => charArrayEach.Add(c));
 			Assert.AreEqual(charArrayEach.Count, testStringEach.Length);
+			for (int i = 0; i < charArrayEach.Count; i++)
+			{
+				Assert.That(charArrayEach[i] == testStringEach.ToCharArray()[i]);
+			}
 		}
 		
 		[Test()]
