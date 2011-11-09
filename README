@@ -1,1 +1,1 @@
-Brings part of the ruby API to C# via extension methods.
+A collection of extensions for C#, inspired by the nicer parts of the ruby API.
