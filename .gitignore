@@ -2,7 +2,10 @@
 db/*.sqlite3
 log/*.log
 tmp/
-bin
-.obj
+bin/
+obj/
 *.userprefs
 test-results
+*ReSharper*
+*.suo
+*.pidb
