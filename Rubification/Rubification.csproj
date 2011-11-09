@@ -33,11 +33,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="Core\Integer.cs" />
-    <Compile Include="Core\String.cs" />
+    <Compile Include="IO\RbFile.cs" />
+    <Compile Include="Core\RbInteger.cs" />
+    <Compile Include="Core\RbString.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Core\" />
+    <Folder Include="IO\" />
   </ItemGroup>
 </Project>

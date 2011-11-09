@@ -6,7 +6,7 @@ using Rubification.Core;
 namespace Rubification.Tests
 {
 	[TestFixture()]
-	public class StringTests
+	public class RbStringTests
 	{
 		[Test()]
 		public void AsAStringICanCapitalize()

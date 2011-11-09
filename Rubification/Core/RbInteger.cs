@@ -2,7 +2,7 @@ using System;
 
 namespace Rubification.Core
 {
-	public static class Integer
+	public static class RbInteger
 	{
 		#region iterators
 		
