@@ -11,7 +11,7 @@ namespace Rubification.Tests
 		[Test()]
 		public void AsAFileICanForEachLine()
 		{
-			
+			RbFile.ForEachLine("test.txt", line => Console.WriteLine(line));
 		}
 	}
 }
